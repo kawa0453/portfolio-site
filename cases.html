@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>模板案例</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    header { text-align: center; margin-bottom: 40px; }
-    nav a { margin: 0 10px; text-decoration: none; color: blue; }
-    section { margin-bottom: 40px; }
-    img { max-width: 100%; height: auto; margin-bottom: 10px; }
-  </style>
+    <meta charset="UTF-8">
+    <title>模板案例</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>模板案例展示</h1>
+    </header>
 
-<header>
-  <h1>模板案例展示</h1>
-  <nav>
-    <a href="index.html">首页</a>
-    <a href="cases.html">案例</a>
-    <a href="contact.html">联系方式</a>
-  </nav>
-</header>
+    <nav>
+        <a href="index.html">首页</a>
+        <a href="cases.html">案例</a>
+        <a href="contact.html">联系方式</a>
+    </nav>
 
-<section>
-  <h2>模板1</h2>
-  <img src="images/template1.png" alt="模板1">
-  <p>模板1：响应式布局，首页+产品页，适合小型企业展示产品。</p>
-</section>
+    <main class="grid">
+        <div class="card">
+            <img src="images/template1.png" alt="模板1">
+            <h3>模板 1</h3>
+            <p>简洁响应式布局，适合小型企业展示。</p>
+        </div>
+        <div class="card">
+            <img src="images/template1.png" alt="模板2">
+            <h3>模板 2</h3>
+            <p>多图展示模板，适合产品或服务展示。</p>
+        </div>
+        <!-- 可继续添加更多模板 -->
+    </main>
 
-<section>
-  <h2>模板2</h2>
-  <img src="images/template2.png" alt="模板2">
-  <p>模板2：简洁风格，适合餐饮或小商铺类网站。</p>
-</section>
-
-<section>
-  <h2>模板3</h2>
-  <img src="images/temp
+    <footer>
+        &copy; 2025 我的名字. All Rights Reserved.
+    </footer>
+</body>
+</html>
