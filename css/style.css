@@ -1,0 +1,50 @@
+/* 全局字体与背景 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* 页眉 */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 导航栏 */
+nav {
+    text-align: center;
+    margin: 15px 0;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* 主要内容区域 */
+section {
+    padding: 30px 20px;
+}
+
+/* 模板案例卡片 */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* 图片自适应 */
+img {
+    max-width: 100%;
+    height: auto;
+}
